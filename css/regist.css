@@ -1,0 +1,50 @@
+@import url(header.css);
+@import url(footer.css);
+
+
+/* sub_visual */
+    #sub9_visual{width: 100%;margin-top: 100px;
+    background-color: #0779bd;}
+    #sub9_visual .vbox{margin: 0 auto;width: 1200px;height: 150px;}
+    #sub9_visual .vbox img{width: 100%;}
+
+/* sub9 style */
+#conWrap{width: 1200px;height: auto;margin: auto;}
+#conWrap::after{content: '';display: block;clear: both;}
+
+#conWrap #sub2{width: 1200px;padding-top: 50px;
+border-bottom: 1px solid #aaa;}
+#conWrap #sub2 h2{padding-bottom: 20px;color: #555;}
+
+#conWrap #nav{width: 200px;margin-top: 100px;
+    float: left;background-color: #fff;}
+    
+#conWrap #nav .navi{width: 200px;margin-bottom: 2px;margin-top: 10px;}
+#conWrap #nav .navi li.group{margin-bottom: 3px;}
+#conWrap #nav .navi .msub{list-style: none;margin: 0;padding: 0;}
+
+#conWrap #nav .title{height: 35px;margin-bottom: 2px;padding-left: 5px;
+line-height: 30px;color: #fff;background-color: #369;cursor: pointer;}
+#conWrap #nav .navi .group .msub li{height: 35px;margin-bottom: 2px;line-height: 30px;
+background: #eee url(../images/dot2.png) no-repeat 5px 10px;background-size: 8px 8px;}
+#conWrap #nav .navi .group .msub li a{text-decoration: none;font-size: 13px;
+display: block;width: 100%;height: 100%;color: #333;text-indent: 20px;}
+#conWrap #nav .navi .group .msub li:hover{background: #eee url(../images/dot1.png) no-repeat 5px 10px;background-size: 8px 8px; }
+#conWrap #nav .navi .group .msub li:hover a{color: #369;font-weight: bold;}
+
+#con1{width: 1200px;height: 800px;}
+#con1 .box9{width: 1200px;height: 700px;}
+
+fieldset{border: 0;}
+legend{font-size: 0;}
+
+#regform{width: 800px;height: auto;padding: 20px;float: left;
+    margin-left: 100px;}
+#regform p{text-align: right;color: red;}
+#regform dl input{width: 100%;height: 40px;border: 1px solid #369;}
+
+#frm dl dd{margin-bottom: 20px;}
+#frm div{text-align: center;}
+#frm div input{width: 370px;height: 50px; display: inline-block;
+border: 1px solid #999;background-color: #369;margin: 0 5px;border-radius: 10px;color: #fff}
+#frm .on{text-align: center;color: red;padding-top: 10px;}

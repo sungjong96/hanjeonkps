@@ -1,0 +1,40 @@
+@import url(header.css);
+@import url(footer.css);
+
+
+/* sub_visual */
+    #sub6_visual{width: 100%;margin-top: 100px;
+    background-color: #0779bd;}
+    #sub6_visual .vbox{margin: 0 auto;width: 1200px;height: 150px;}
+    #sub6_visual .vbox img{width: 100%;}
+
+/* sub5 style */
+#conWrap{width: 1200px;height: auto;margin: auto;}
+#conWrap::after{content: '';display: block;clear: both;}
+
+#conWrap #sub2{width: 1200px;padding-top: 50px;
+border-bottom: 1px solid #aaa;}
+#conWrap #sub2 h2{padding-bottom: 20px;color: #555;}
+
+#conWrap #nav{width: 200px;margin-top: 100px;
+    float: left;background-color: #fff;}
+    
+    #conWrap #nav .navi{width: 200px;margin-bottom: 2px;margin-top: 10px;}
+    #conWrap #nav .navi li.group{margin-bottom: 3px;}
+    #conWrap #nav .navi .msub{list-style: none;margin: 0;padding: 0;}
+    
+    #conWrap #nav .title{height: 35px;margin-bottom: 2px;padding-left: 5px;
+        line-height: 30px;color: #fff;background-color: #369;cursor: pointer;}
+        #conWrap #nav .navi .group .msub li{height: 35px;margin-bottom: 2px;line-height: 30px;
+        background: #eee url(../images/dot2.png) no-repeat 5px 10px;background-size: 8px 8px;}
+        #conWrap #nav .navi .group .msub li a{text-decoration: none;font-size: 13px;
+        display: block;width: 100%;height: 100%;color: #333;text-indent: 20px;}
+        #conWrap #nav .navi .group .msub li:hover{background: #eee url(../images/dot1.png) no-repeat 5px 10px;background-size: 8px 8px; }
+        #conWrap #nav .navi .group .msub li:hover a{color: #369;font-weight: bold;}
+
+    #con1{width: 1200px;height: auto;margin-top: 30px;}
+    #con1::after{content: '';display: block;clear: both;}
+    #con1 .box5{width: 700px;height: 1200px;margin-left: 300px;}
+    #con1 .box5 img{width: 90%;}
+    #con1 h4{width: 700px;height: 30px;line-height: 30px;margin-left: 300px;
+    font-size: 30px;margin-top: 30px;margin-bottom: 30px;}

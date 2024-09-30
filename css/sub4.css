@@ -1,0 +1,71 @@
+@import url(header.css);
+@import url(footer.css);
+
+
+/* sub_visual */
+    #sub4_visual{width: 100%;margin-top: 100px;
+    background-color: #0779bd;}
+    #sub4_visual .vbox{margin: 0 auto;width: 1200px;height: 150px;}
+    #sub4_visual .vbox img{width: 100%;}
+
+/* sub4 style */
+#conWrap{width: 1200px;height: auto;margin: auto;}
+#conWrap::after{content: '';display: block;clear: both;}
+
+#conWrap #sub2{width: 1200px;padding-top: 50px;
+border-bottom: 1px solid #aaa;}
+#conWrap #sub2 h2{padding-bottom: 20px;color: #555;}
+
+#conWrap #nav{width: 200px;margin-top: 100px;
+    float: left;background-color: #fff;}
+    
+    #conWrap #nav .navi{width: 200px;margin-bottom: 2px;margin-top: 10px;}
+    #conWrap #nav .navi li.group{margin-bottom: 3px;}
+    #conWrap #nav .navi .msub{list-style: none;margin: 0;padding: 0;}
+    
+    #conWrap #nav .title{height: 35px;margin-bottom: 2px;padding-left: 5px;
+        line-height: 30px;color: #fff;background-color: #369;cursor: pointer;}
+        #conWrap #nav .navi .group .msub li{height: 35px;margin-bottom: 2px;line-height: 30px;
+        background: #eee url(../images/dot2.png) no-repeat 5px 10px;background-size: 8px 8px;}
+        #conWrap #nav .navi .group .msub li a{text-decoration: none;font-size: 13px;
+        display: block;width: 100%;height: 100%;color: #333;text-indent: 20px;}
+        #conWrap #nav .navi .group .msub li:hover{background: #eee url(../images/dot1.png) no-repeat 5px 10px;background-size: 8px 8px; }
+        #conWrap #nav .navi .group .msub li:hover a{color: #369;font-weight: bold;}
+
+#con1{width: 1200px;height: auto;}
+#con1 .box4{width: 700px;height: auto;margin: auto;}
+#con1 .box4 .tit{width: 700px;height: 150px;margin-left: 150px;}
+#con1 .box4 .tit h4{text-align: center;width: 200px;height: 30px;line-height: 30px;
+background-color: #369;color: #fff;margin-top: 100px;margin-bottom: 15px;}
+#con1 .box4 .tit p{line-height: 150%;}
+
+#con1 .box4 .sub1{width: 700px;height: 450px;margin-top: 70px;margin-left: 150px;}
+#con1 .box4 .sub1 h4{margin-bottom: 20px;}
+#con1 .box4 .sub1 > ul > li{width: 700px;height: 30px;padding-top: 5px;padding-left: 17px;
+background: rgb(255, 241, 241) url(../images/dot1.png) no-repeat 12px 12px;
+background-size: 10px;text-indent: 20px;}
+
+#con1 .box4 .sub1 > ul > li:hover{background: url(../images/dot2.png)no-repeat 12px 12px;
+background-size: 10px;text-indent: 20;}
+
+#con1 .box4 .sub2{width: 700px;height: 300px;margin-top: 130px;margin-left: 150px;}
+#con1 .box4 .sub2 h4{margin-bottom: 20px;}
+#con1 .box4 .sub2 > ul > li{height: 700px;height: 40px;padding-top: 5px;
+padding-left: 17px;background: #eee url(../images/dot.png) no-repeat 12px 12px;
+background-size: 10px;text-indent: 20px;}
+
+
+#con1 .box4 .sub3{width: 700px;height: 250px;margin-left: 150px;}
+#con1 .box4 .sub3 h4{margin-bottom: 30px;}
+#con1 .box4 .sub3 table{width: 700px;height: 130px;border-collapse: collapse;}
+#con1 .box4 .sub3 th,
+#con1 .box4 .sub3 td{border: 1px solid #369;}
+#con1 .box4 .sub3 td{text-align: center;font-size: 14px;}
+#con1 .box4 .sub3 tr:first-child{background-color: rgb(99, 152, 204);color: #fff;}
+
+
+
+#con1 .box4 .sub4{width: 700px;height: 400px;margin-left: 150px;}
+#con1 .box4 .sub4 h4{margin-bottom: 30px;}
+#con1 .box4 .sub4 > ul > li{width: 700px;height: 60px;padding-top: 10px;padding-left: 17px;
+background: #eee url(../images/dot1.png) no-repeat 12px 12px;background-size: 10px;text-indent: 20px;}
